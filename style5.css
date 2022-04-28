@@ -1,0 +1,18 @@
+tml
+body{
+    --bgcolor: lightblue;
+    background: var(--bgcolor);
+}
+#banner{
+    color:purple;
+    background-color: white;}
+
+
+ul li:not([data-tag]){
+    color:blue
+    
+}
+
+
+ul li[data-tag] {
+    color: red
